@@ -163,6 +163,7 @@ const Button = ({
     >
       {loading && (
         <LoaderCircleIcon
+          data-testid="icon-loading"
           className={applyUnstyled(
             unstyled,
             "mr-2 h-5 w-5 animate-spin text-current",
